@@ -10,7 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+<<<<<<< Updated upstream
 - script: echo Hello, world!
+=======
+- script: echo Hello, world this is another test after a second commit!
+- script: echo Now will create stage deployments.
+>>>>>>> Stashed changes
   displayName: 'Run a one-line script'
 
 - script: |
