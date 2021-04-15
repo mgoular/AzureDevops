@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world this is another test after a second commit!
+- script: echo Hello, world this is another test after a second commit!!!
   displayName: 'Run a one-line script'
 
 - script: |
